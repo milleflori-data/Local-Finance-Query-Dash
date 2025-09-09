@@ -20,5 +20,5 @@ A **desktop-ready analytics dashboard** for finance, tech, and market events usi
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/yourusername/gdelt-finance-dashboard.git
+git clone https://github.com/milleflori-data/Local-Finance-Query-Dash.git
 cd gdelt-finance-dashboard
