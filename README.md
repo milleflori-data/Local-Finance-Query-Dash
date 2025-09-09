@@ -1,10 +1,24 @@
-# Local-Finance-Query-Dash
-Local Desktop version of GDELT Query Simplified
-GDELTFinanceDesktop/
-│
-├─ main.py                # Streamlit dashboard + DB access
-├─ update_data.py         # Daily CSV download & SQLite update
-├─ requirements.txt       # All dependencies
-├─ launcher.py            # Script to launch Streamlit automatically
-├─ gdelt_finance.db       # SQLite DB (created on first run)
-└─ data/                  # Optional storage folder for CSVs/backups
+# 📊 GDELT Finance & Tech Dashboard
+
+A **desktop-ready analytics dashboard** for finance, tech, and market events using **GDELT data**. Fully local, no BigQuery required. Stores data in **SQLite**, visualizes with **Plotly** and **Streamlit**, and supports JSON export for integration.
+
+---
+
+## ⚡ Features
+
+- Finance, Tech, Market event focus (EventRootCode 07, 081-083)
+- Local SQLite storage for historical data
+- Streamlit-based interactive dashboard
+- Plotly charts: Timeline, Top Actors, Country Distribution
+- Simple JSON export for external systems
+- Easy daily update with `update_data.py`
+- Desktop launch with `launcher.py`
+
+---
+
+## 🛠️ Setup
+
+### 1. Clone Repo
+```bash
+git clone https://github.com/yourusername/gdelt-finance-dashboard.git
+cd gdelt-finance-dashboard
