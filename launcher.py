@@ -13,7 +13,6 @@ streamlit_cmd = [
     "--server.port=8501"
 ]
 
-# Launch Streamlit in subprocess
 process = subprocess.Popen(streamlit_cmd)
 
 # Open browser automatically
@@ -27,3 +26,4 @@ try:
 except KeyboardInterrupt:
     process.terminate()
     print("\n✅ Dashboard stopped.")
+
